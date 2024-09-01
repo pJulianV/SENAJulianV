@@ -1,0 +1,93 @@
++------------------+
+|      Usuario     |
++------------------+
+| - nombre         |
+| - correo         |
+| - contraseña     |
++------------------+
+| + registrarse()  |
+| + iniciarSesion() |
++------------------+
+         |
+         |
+         |
++------------------+
+|    Administrador  |
++------------------+
+|                  |
++------------------+
+| + gestionarUsuarios() |
+| + gestionarProductos() |
+| + verReportes()       |
++------------------+
+
++------------------+
+|      Producto     |
++------------------+
+| - nombre         |
+| - precio         |
+| - descripción     |
++------------------+
+| + agregarAlCarrito() |
+| + actualizarStock()   |
++------------------+
+
++------------------+
+|      Carrito      |
++------------------+
+| - listaProductos  |
+| - total           |
++------------------+
+| + añadirProducto() |
+| + eliminarProducto()|
++------------------+
+
++------------------+
+|      Pedido       |
++------------------+
+| - numeroPedido    |
+| - fecha           |
+| - estado          |
++------------------+
+| + realizarPedido() |
+| + cancelarPedido() |
++------------------+
+
++------------------+
+|     Proveedor     |
++------------------+
+| - nombre         |
+| - contacto       |
+| - listaProductos  |
++------------------+
+| + enviarProducto() |
+| + actualizarInventario() |
++------------------+
+
++------------------+
+|     Plataforma    |
++------------------+
+|                  |
++------------------+
+| + registrarUsuario() |
+| + procesarPago()    |
++------------------+
+
++------------------+
+|  InterfazUsuario  |
++------------------+
+|                  |
++------------------+
+| + mostrarProductos() |
+| + mostrarCarrito()   |
++------------------+
+
++------------------+
+|   HerramientasCASE |
++------------------+
+|                  |
++------------------+
+| + analizarSistema() |
+| + documentar()     |
+| + probarSoftware()  |
++------------------+
